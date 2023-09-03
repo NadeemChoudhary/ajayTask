@@ -2,11 +2,14 @@
     height: 100%;
     width: 100%;
     position: relative;
+    padding: 0;
+    margin: 0;
 }
 .maskgroupmain img{
     height: 100%;
-    width: 99%;
-    margin-left: 1%;
+    width: 100%;
+    margin-left: 0%;
+    padding: 0;
 }
 .maskgroupmain button{
     position: absolute;
@@ -18,3 +21,18 @@
     border: none;
 
 }
+
+@media only screen and (max-width: 600px){
+
+.maskgroupmain img {
+    height: 50vh;
+    width: 100%;
+    margin-left: 0%;
+    padding: 0;
+    object-fit: fill;
+}
+.maskgroupmain button {
+    display: none;
+}
+}
+

@@ -84,6 +84,7 @@ text-align: left;
 color: white;
 }
 .Website{
+    display: none;
     font-family: Montserrat;
 font-size: 10px;
 font-weight: 400;
