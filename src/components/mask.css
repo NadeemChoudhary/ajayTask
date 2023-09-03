@@ -1,0 +1,20 @@
+.maskgroupmain{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.maskgroupmain img{
+    height: 100%;
+    width: 99%;
+    margin-left: 1%;
+}
+.maskgroupmain button{
+    position: absolute;
+    left: 12%;
+    top: 64%;
+    background: #F837B7;
+    padding: 12px 40px 12px 40px;
+    border-radius: 30px;
+    border: none;
+
+}
